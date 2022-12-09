@@ -1,7 +1,7 @@
 import React from "react";
 import { useFetch, useCounter } from "../hooks";
 import { LoadingQuote, Quote } from "./";
-
+ 
 export const MultipleCustomHooks = () => {
   const { increment, counter, reset, decrement } = useCounter(1);
   const { data, hasError, isLoading } = useFetch(

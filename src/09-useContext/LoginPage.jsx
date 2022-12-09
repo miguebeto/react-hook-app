@@ -9,17 +9,23 @@ export const LoginPage = () => {
       <div>LoginPage</div>
       <hr />
 
-      <pre>{JSON.stringify(user, null, 3)}</pre>
+      <pre aria-label="pre">{JSON.stringify(user, null, 3)}</pre>
       <button
         onClick={() =>
-          setUser([
+          // setUser([
+          //   ...user,
+          //   {
+          //   id: 123,
+          //   name: "Miguel Angel",
+          //   email: "miguelangell1994@hotmail.com",
+          //   }
+          // ])
+          setUser({
             ...user,
-            {
             id: 123,
             name: "Miguel Angel",
             email: "miguelangell1994@hotmail.com",
-            }
-          ])
+          })
         }
         className="btn btn-primary"
       >
