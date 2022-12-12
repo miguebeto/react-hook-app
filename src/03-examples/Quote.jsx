@@ -13,9 +13,9 @@ export const Quote = ({ data }) => {
     <>
       <blockquote style={{ display: "flex" }} className="blockquote text-end">
         <p ref={pRef} className="mb-1">
-          {data[0].quote}
+          {data[0]?.quote}
         </p>
-        <footer className="blockquote-footer">{data[0].author}</footer>
+        <footer className="blockquote-footer">{data[0]?.author}</footer>
       </blockquote>
       <code>{JSON.stringify(boxSize)}</code>
     </>

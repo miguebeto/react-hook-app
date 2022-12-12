@@ -23,5 +23,31 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
         <MainApp />
+        <hr />
+        <TodoApp />
+        <hr />
+        <Padre />
+        <hr />
+        <Memorize />
+        <hr />
+        <CounterApp />
+        <hr />
+        <CounterWithCustomHook />
+        <hr />
+        <FormWithCustomHook />
+        <hr />
+        <Message />
+        <hr />
+        <SimpleForm />
+        <hr />
+        <MultipleCustomHooks />
+        <hr />
+        <FocusScreen />
+        <hr />
+        <Layout />
+        <hr />
+        <CallBackHook />
+        <hr />
+        <MemoHook />
     </BrowserRouter>
 );

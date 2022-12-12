@@ -16,7 +16,7 @@ const { counter1, counter2, counter3 } = counter
       <h1>Counter: {counter3}</h1>
       <hr />
       <button
-        className="btn"
+        className="btn btn-primary"
         onClick={() =>
           setCounter({ ...counter, counter1: counter1 + 1 })
         }
